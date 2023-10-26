@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    color: #272727;
+}
+
+h1{
+    text-transform: uppercase;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container div{
+    margin: 60px 0;
+}
+
+button{
+    padding: 10px 15px;
+    border-radius: 50%;
+    border: none;
+    background-color: #dd203c;
+    color: white;
+    cursor: pointer;
+}
+
+input{
+    min-width: 300px;
+    padding: 12px 15px;
+    border: none;
+    border-bottom: solid #272727;
+}
+
+input:focus{
+    outline: none;
+}
+
+.barra_lateral{
+    width: 60px;
+    height: 100vh;
+    position: absolute;
+    left: 0;
+    background-color: #dd203c;
+}
+
+
+
+#dark-mode-button {
+    background-color: white;
+    color: black;
+    padding: 10px;
+    border: 1px solid black;
+    cursor: pointer;
+  }
+  
+  #dark-mode-button:hover {
+    background-color: lightgray;
+  }
+  
+  body.dark-mode {
+    background-color: black;
+    color: white;
+  }
+
+
+  #microfone:active {
+    background-color: #05327a;
+    color: white;
+    border: 1px solid #000000;
+    box-shadow: 0 0 10px 2px #607d8b;
+  }
