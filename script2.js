@@ -1,7 +1,7 @@
 let botao = document.querySelector('#microfone');
     let input = document.querySelector('input');
 
-const OpenAPIiKey = process.env.OPEN_API_KEY;
+const OpenAPIiKey = process.env.OPENAI_API_KEY;
 const AzureAPIKey = process.env.AZURE_API_KEY;
 
 
